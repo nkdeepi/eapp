@@ -1,0 +1,44 @@
+/* styles for box in category page */
+/* when am giving styles to container header portion also gets dat css */
+.containerone {
+  background-color: cornflowerblue;
+  max-width: 1500px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.box {
+  background-color: rgb(247, 239, 239);
+  /* background-color:rgb(6, 6, 238); */
+  width: 28%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px black;
+  
+    border-radius: 20px
+}
+p {
+  color: beige;
+  font-size: smaller;
+}
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.addbuybtn {
+  /* text-decoration: none !important; */
+  color: black;
+}
+.buttons a {
+  background-color: rgb(10, 10, 10);
+  color: rgb(248, 240, 240);
+  font-size: large;
+}
+#cartboxitems{
+  height: 200px;
+  width: 200px;
+}
